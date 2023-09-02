@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+</head>
+<body>
+    <h1>Лабораторна №1</h1>
+    <h2>Робота з таблицями</h2>
+    <h2>Виконав студент групи АнД-31 Пархоменко Е.Д.</h2>
+    <a href="index.html"><font size="4">На головну</font></a>
+    <h3>Завдання</h3>
+    <p>Необхідно розробити форму для введення товару до інтернет-магазину. Необхідно заповнити наступні данні:</p>
+    <ul>
+        <li>дані про товар, включають назву товару, тип товару(вибирається зі
+            списку), опис, поточну ціну, ціну зі знижкою;</li>
+        <li>дані про виробника, включають назву, електрону пошту, посилання на
+            веб-сайт, коментарі.</li>
+    </ul>
+    <from action="" method = POST">
+        <fieldset>
+            <legend>Товари</legend>
+            <p>
+                <label>Назва товару
+                    <input id="p_name" type="text">
+                </label>
+                <label>Тип товару
+                    <select>
+                        <option>Для дому</option>
+                        <option>Для саду</option>
+                        <option>Для огороду</option>
+                        <option>Інше</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>Опис
+                    <textarea rows="5" cols="50"></textarea>
+                </label>    
+            </p>
+            <label>Поточна ціна
+                <input id="current_price" type="number" min="1" step="any">
+            </label>
+            <label>Ціна зі знижкою
+                <input id="discounted_price" type="number" min="1" step="any">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Виробник</legend>
+            <p>
+                <label>Ім'я виробника
+                    <input id="producer_name" type="text">
+                </label>
+                <label>Електрона пошта
+                    <input id="producer_email" type="email">
+                </label>
+            </p>
+            <label>Посилання на веб-сайт
+                <input id="web_link" type="url">
+            </label>
+            <p>
+                <label>Коментарі
+                    <textarea rows="5" cols="50"></textarea>
+                </label>
+            </p>
+        </fieldset>
+        <button type="submit">Відправити</button>
+    </from>
+</body>
