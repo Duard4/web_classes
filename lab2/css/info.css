@@ -1,0 +1,20 @@
+*{
+    background-color:#0e524c;
+
+} 
+
+.a1 {
+    font-style:italic;
+    color: darkgray;
+}
+.a2 {
+    font:600;
+    color: #f6fcff;
+}
+.a3 > span{
+    color:red;
+}
+img_left {
+    float: left;
+
+}

@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="ukr">
+
 <head>
     <meta charset="UTF-8">
     <title>Таблиця</title>
@@ -10,57 +12,65 @@
     <h2>Виконав студент групи АнД-31 Пархоменко Е.Д.</h2>
     <a href="index.html"><font size="4">На головну</font></a>
     <h3>Завдання</h3>
-    <p>Необхідно розробити форму для введення товару до інтернет-магазину. Необхідно заповнити наступні данні:</p>
+    <p>Необхідно розробити форму для реєстрації студента у веб-системі.
+        Необхідно заповнити наступні данні: </p>
     <ul>
-        <li>дані про товар, включають назву товару, тип товару(вибирається зі
-            списку), опис, поточну ціну, ціну зі знижкою;</li>
-        <li>дані про виробника, включають назву, електрону пошту, посилання на
-            веб-сайт, коментарі.</li>
+        <li>Основні дані про студента, включають ПІБ, назву групи
+            (вибирається із списку), форму навчання(бюджет або контакт) реалізується у
+            вигляді перемикача, коротку інформацію про студента, електрона адреса
+            студента;</li>
+        <li>Особисті дані студента, включають дані паспорта, ідентифікаційний
+            код, рік народження, стать (реалізується у вигляді перемикача).</li>
     </ul>
     <from action="" method = POST">
         <fieldset>
-            <legend>Товари</legend>
+            <legend>Основні дані про студента</legend>
             <p>
-                <label>Назва товару
+                <label>ПІБ
                     <input id="p_name" type="text">
                 </label>
-                <label>Тип товару
+                <label>Назва групи
                     <select>
-                        <option>Для дому</option>
-                        <option>Для саду</option>
-                        <option>Для огороду</option>
-                        <option>Інше</option>
+                        <option>АнД-31</option>
+                        <option>КН-31</option>
+                        <option>КН-32</option>
                     </select>
                 </label>
-            </p>
-            <p>
-                <label>Опис
+                <br>
+                <label>Форма навчання
+                    <br>
+                    <label>Бюджет<input id="budget" type = "radio" name = "study_form"></label>
+                    <label>Контракт<input id="contr" type = "radio" name = "study_form"></label>
+                </label>
+                <br>
+                <label>Коротка інформацію про студента
+                    <br>
                     <textarea rows="5" cols="50"></textarea>
-                </label>    
+                </label>
+                <br>
+                <label>Електрона адреса
+                    <input id="email" type="email">
+                </label>
             </p>
-            <label>Поточна ціна
-                <input id="current_price" type="number" min="1" step="any">
-            </label>
-            <label>Ціна зі знижкою
-                <input id="discounted_price" type="number" min="1" step="any">
-            </label>
         </fieldset>
         <fieldset>
-            <legend>Виробник</legend>
+            <legend>Особисті дані студента</legend>
             <p>
-                <label>Ім'я виробника
-                    <input id="producer_name" type="text">
+                <label>Дані паспорта
+                    <input id="docs" type="text">
                 </label>
-                <label>Електрона пошта
-                    <input id="producer_email" type="email">
+                <label>ІПН
+                    <input id="ipn" type="number">
                 </label>
             </p>
-            <label>Посилання на веб-сайт
-                <input id="web_link" type="url">
+            <label>Рік народження
+                <input id="date" type="date">
             </label>
             <p>
-                <label>Коментарі
-                    <textarea rows="5" cols="50"></textarea>
+                <label>Стать
+                    <br>
+                    <label>Чоловіча<input id="male" type = "radio" name = "sex"></label>
+                    <label>Жіноча<input id="female" type = "radio" name = "sex"></label>
                 </label>
             </p>
         </fieldset>
