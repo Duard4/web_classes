@@ -1,3 +1,12 @@
+button {
+    background-color: #698e15;
+    font-size: medium;
+}
+button > a {
+    color: #211e28;
+}
 body {
-    background-image: url("../img/лікарські_рослини.jpg");
+    
+    background-image: url("../img/misha.jpg");
+    
 }

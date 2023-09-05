@@ -1,20 +1,38 @@
-*{
-    background-color:#0e524c;
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: rgb(15, 125, 159);
+}
 
-} 
+h1 {
+    color:lightgreen;
+}
+.button > a {
+    text-align: center;
+    text-transform: capitalize;
+    color: lightgreen;
+    font-size:medium;
+    text-decoration: none;
+}
 
-.a1 {
-    font-style:italic;
-    color: darkgray;
+.par1 {
+    color: lightgreen;
+    text-decoration: underline;
 }
-.a2 {
-    font:600;
-    color: #f6fcff;
+.par2 {
+    text-decoration: underline;
 }
-.a3 > span{
-    color:red;
+.par3 > span {
+    font: italic;
+    color: red;
 }
-img_left {
+.img_left { 
     float: left;
-
+    width: 33%;
+    border: 8px solid rgb(15, 125, 159);
+}
+.img_right {
+    float: right;
+    width: 40%;
+    border: 8px solid rgb(15, 125, 159);
 }

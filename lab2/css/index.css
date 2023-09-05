@@ -1,8 +1,18 @@
-h1, h2 {
+button {
+    background-color: lightgreen;
+    font-size: medium;
+}
+button > a {
+    color: blue;
+}
+h1, h2, h3 {
     text-align: center;
 }
-* {
-    background-color: darkgray;
-    color: lightgreen;
+a {
+    color: darkgreen;
+}
+body {
+    background-color: lightgreen;
+    color: blue ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
