@@ -28,11 +28,11 @@ h1 {
 }
 .img_left { 
     float: left;
-    width: 33%;
+    width: 32%;
     border: 8px solid rgb(15, 125, 159);
 }
 .img_right {
     float: right;
-    width: 40%;
+    width: 36%;
     border: 8px solid rgb(15, 125, 159);
 }
