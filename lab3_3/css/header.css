@@ -1,0 +1,22 @@
+.header {
+    height: var(--height-header);
+    width: var(--width-header);
+    background-color:#E3F8F3;
+    top:0px;
+    left:0px;
+    
+}
+.header>h1 {
+    font-size: var(--font-size-h1);
+    top: 9px;
+    left: 178px;
+    background: transparent;
+    color: #F8DF00;
+    font-family: "Rochester", normal;
+    height: 100px;
+}
+.i1 {
+    max-width: 720px;
+    height: 100px;
+    mix-blend-mode: color-burn;
+}

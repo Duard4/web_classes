@@ -1,0 +1,28 @@
+.menu {
+    width: var(--width-menu);
+    height: var(--height-menu);
+    font-size: var(--font-size-menu);
+    top:0px;
+    left:720px;
+    background-color: #000000;
+    font-family: var(--font-family-text);
+    
+}
+.menu>a, .menu>a:link, .menu>a:visited {
+    top:35px;
+    color: var(--color-menu); 
+    background-color: transparent;
+}
+.menu>a:hover {
+    text-decoration: underline;
+    /* font-weight: bold; */
+}
+#m1 {
+    left: 70px;
+}
+#m2 {
+    left: 330px;
+}
+#m3 {
+    left: 540px;
+}

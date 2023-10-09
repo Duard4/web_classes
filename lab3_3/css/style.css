@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(add.css);
+@import url(content.css);
+@import url(menu.css);
+@import url(header.css);
+
+@import url(footer.css);
+
+body {
+    width: var(--width);
+    height: 2075px;
+    background-color: var(--color-bg);
+}
+* {
+    position: absolute;
+    color: var(--color-text);
+}
+.topbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #04101E;
+    bottom: 30px;
+    right: 25px;
+    text-decoration: none;
+    opacity: 30%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+    color: var(--color-text);
+}
+.topbtn>i:hover, .topbtn:hover {
+    color: var(--color-menu);
+    opacity: 100%;
+}
+.topbtn>i {
+    top:14px;
+    left: 17px;
+}

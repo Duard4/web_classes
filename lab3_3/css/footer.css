@@ -1,0 +1,47 @@
+.footer {
+    height: var(--height-footer);
+    width: var(--width);
+    top: 2075px;
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-text);
+    background-color: #000000;
+}
+
+
+.footer>a, .footer>a:visited {
+    color:white;
+
+}
+.text-f-1 {
+    left: 166px;
+}
+.text-f-2 {
+    left: 678px;
+}
+.text-f-3 {
+    left: 1122px;
+
+}
+.i7, .i8, .i9, .text-f-1, .text-f-2, .text-f-3 {
+    top: 14px;
+    color: white;
+}
+.i7 {
+    width: 71px;
+    height: 71px;
+    left: 46px;
+    box-shadow: 0px 4px 30px 5px #3B579D;
+}
+.i8 {
+    
+    width: 71px;
+    height: 71px;
+    left: 557px;
+    box-shadow: 0px 4px 30px 5px #2F467E;
+}
+.i9 {
+    width: 84px;
+    height: 71px;
+    left: 988px;
+    box-shadow: 0px 4px 30px 5px #7D455C
+}
