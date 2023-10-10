@@ -7,18 +7,20 @@
     background-color: #000000;
 }
 
-
 .footer>a, .footer>a:visited {
     color:white;
-
+    top: 10px;
 }
-.text-f-1 {
+.fa1:hover, .fa2:hover, .fa3:hover {
+    text-shadow: white 1px 0 10px; 
+}
+.fa1 {
     left: 166px;
 }
-.text-f-2 {
+.fa2 {
     left: 678px;
 }
-.text-f-3 {
+.fa3 {
     left: 1122px;
 
 }
