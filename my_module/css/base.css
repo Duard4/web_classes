@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;600&family=Inter&display=swap');
+
+:root {
+    --head-height: 180px;
+    --footer-height: 100px;
+    --menu-height: 100px;
+    --max-text-width: 1000px;
+    --font-family: Arial, Helvetica, sans-serif;
+    --headlines: #2A2D34;
+    --title-size: 48px;
+    --subtitle-size: 32px;
+    --text-size: 18px;
+    --bg-additional1: #23425A;
+    --color-menu: #e7c800;;
+    --color-title: #EF9F42;
+    --bg-menu: #2a7d8edd;
+    --bg-content: #2d8496da;
+    --bg-footer: #072d45f4;
+    --bg-additional: #30556cf4;
+}

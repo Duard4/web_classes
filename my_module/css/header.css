@@ -1,0 +1,16 @@
+.header {
+    height: var(--head-height);
+    width: 100%;
+    font-family: 'Inknut Antiqua', serif;
+    background-image: url(../img/head.png);
+    font-size: var(--title-size);
+}
+.header_text {
+    -webkit-text-stroke: 1px #F6FFDB; 
+    color: var(--headlines);
+    margin-left: 30px;
+}
+.header_text:hover {
+    text-shadow: rgb(38, 69, 84) 5px 0 10px;    
+    color: black;
+}

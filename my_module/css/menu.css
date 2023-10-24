@@ -1,0 +1,22 @@
+.menu_content_container {
+    width: 70%;
+}
+
+
+.menu {
+    font-size: var(--subtitle-size);
+    height: var(--menu-height);
+    background-color: var(--bg-menu);
+    padding-right: 50px;
+}
+.menu_list {
+    gap: 100px;
+}
+.menu_link {
+    color:var(--color-menu);
+}
+.menu_link:hover, .menu_link:focus, .menu_link:active {
+    text-shadow: rgb(109, 98, 12)  0px 0px 10px;    
+    color : rgb(252, 231, 69);
+
+}

@@ -1,0 +1,21 @@
+.additional {
+    width: 30%;
+    font-size: var(--title-size);
+    background: var( --bg-additional);
+    color: var(--color-title);
+}
+.name_img_container {
+    gap: 15px;
+}
+.additional_img {
+    width: 400px;
+    height: auto;
+}
+
+.additional_name {
+    max-height: 50px;
+}
+.additional_name:hover {
+    text-shadow: rgb(234, 126, 32)  0px 0px 5px;    
+    
+}
