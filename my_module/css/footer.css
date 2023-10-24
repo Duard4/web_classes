@@ -1,0 +1,16 @@
+.footer {
+    height: var(--footer-height);
+    font-family: 'Inknut Antiqua', serif;
+    font-size: calc(var(--subtitle-size)*0.8);
+    background-color: var(--bg-footer);
+}
+.footer_list {
+    width: 90%;
+}
+.footer_link {
+    color: var(--color-menu);
+}
+.footer_link:hover, .footer_link:active, .footer_link:focus {
+    text-shadow: rgb(109, 98, 12)  0px 0px 10px;    
+    color : rgb(252, 231, 69);
+}

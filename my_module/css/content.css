@@ -1,0 +1,28 @@
+.content {
+    background-color: var(--bg-content);
+
+    padding-right: 20px;
+}
+.text-block {
+    max-width: var(--max-text-width);
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    line-height: 130%;
+    padding: 15px;
+    text-align: justify;
+}
+.text-block:first-child {
+    font-style: italic;
+    margin-top: 2%;
+}
+.content_title {
+    font-size: var(--subtitle-size);
+    margin-top: 5%;
+    margin-left: 5%;
+
+    color: var(--color-title);
+}
+.content_subtitle {
+    margin-left: 5%;
+    font-size: calc(var(--subtitle-size)*0.8);
+}
