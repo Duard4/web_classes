@@ -53,6 +53,11 @@ body {
     color: black;
     text-decoration: none;
 }
+.header__link:hover, .header__link:active, .header__link:focus {
+    color:#B00000;
+    text-shadow: rgb(77, 70, 11)  0px 0px 1px;    
+    font-size: 15px;
+}
 
 .header__underline {
     width: 72px;
