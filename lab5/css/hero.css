@@ -61,7 +61,7 @@ li:hover::after, .crunch__link:focus::after {
     font-weight: 700;
     line-height: 77.50px;
     max-width: 600px;
-    padding-top: 25px;
+    padding-top: 5%;
 }
 
 .hero__inter_letters {
@@ -71,7 +71,7 @@ li:hover::after, .crunch__link:focus::after {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.80px;
-    padding-top: 34px;
+    padding-top: 5%;
     max-width: 450px;
 
 }
@@ -81,7 +81,6 @@ li:hover::after, .crunch__link:focus::after {
 }
 
 .hero__button_red {
-    max-width: 135px;
     margin-top: 4%;
     padding: 12px;
     background: var(--red-color);

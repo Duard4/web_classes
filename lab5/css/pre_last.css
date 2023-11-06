@@ -1,11 +1,10 @@
 
 .pre_last {
-    margin-top: 125px;
+    margin-top: 10%;
 }
 
 .pre_last__bg {
     width: 90%;
-    height: 50%;
     border-radius: 16px;
     background: var(--secondary-soft-purple, #F7FAFE);
 }
@@ -58,4 +57,5 @@
 .triangle3 {
     margin-left: 97%;
     margin-top: -20px;
+    padding-bottom: 5%;
 }
